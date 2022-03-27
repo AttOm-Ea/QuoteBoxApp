@@ -1,0 +1,12 @@
+.contentQuote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 92%;
+    background-color: rgba(0, 0, 0, 0.541);
+    border: solid .2rem rgb(233, 232, 230);
+    border-radius: 5rem;
+    color: rgb(236, 238, 238);
+}

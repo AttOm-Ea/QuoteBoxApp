@@ -1,0 +1,45 @@
+.contentNext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+}
+
+.buttonN{
+    background-color: rgb(213, 219, 219);
+    border-radius: 25rem;
+    border: solid .2rem rgb(196, 195, 195);
+    cursor: pointer;
+    box-shadow: 0rem .1rem 1rem .1rem rgb(0, 0, 0);
+    color: rgb(57, 80, 128);
+}
+
+.buttonN:active{
+    background-color: rgb(212, 47, 144)!important;
+    transition: all .2s ease;
+}
+
+.buttonN:hover{
+    background-color: rgb(57, 80, 128);
+    color: beige;
+}
+
+@media (width >= 650px) { 
+    .buttonN{
+        width: 4.5rem;
+        height: 4.5rem;
+        font-size: 2.2rem;
+    }
+    .buttonN:hover{
+        box-shadow: 0rem .3rem .1rem .1rem rgba(0, 0, 0);
+    }
+}
+
+@media (width <= 650px) { 
+    .buttonN{
+        width: 2rem;
+        height: 2rem;
+        font-size: .9rem;
+    }
+}
