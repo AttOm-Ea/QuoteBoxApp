@@ -11,7 +11,9 @@
     cursor: pointer;
 }
 .lImg{
+    border: solid .1rem red ;
     max-height: 50%;
+    max-width: 20%;
 }
 .faTwitter{
     color: aliceblue;
